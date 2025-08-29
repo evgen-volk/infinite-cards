@@ -1,4 +1,3 @@
-// logger.ts
 interface LoggerConfig {
   appName: string;
   loggerName: string;

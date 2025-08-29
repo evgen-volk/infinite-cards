@@ -4,11 +4,11 @@ interface IProps {
   loadNext: () => void;
 }
 
-const LOAD_NEXT_MS = 10000;
+const LOAD_NEXT_MS = 30000;
 
 export const CardLoader: React.FC<IProps> = (props) => {
   const { loadNext } = props;
-  const [count, setCount] = useState(LOAD_NEXT_MS / 1000); // Initial count value
+  const [count, setCount] = useState(LOAD_NEXT_MS / 1000);
 
   useEffect(() => {
     const interval = setInterval(() => {

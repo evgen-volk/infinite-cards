@@ -37,12 +37,10 @@ export const CoffeeCard: React.FC<IProps> = (props) => {
         />
       </div>
 
-      {/* Title */}
       <div className={styles.titleContainer}>
         <h3 className={styles.title}>{title}</h3>
       </div>
 
-      {/* Ingredients Tags */}
       {ingredients && ingredients.length > 0 && (
         <div className={styles.ingredientsContainer}>
           <div className={styles.ingredientsList}>
@@ -55,7 +53,6 @@ export const CoffeeCard: React.FC<IProps> = (props) => {
         </div>
       )}
 
-      {/* Description */}
       <div className={styles.descriptionContainer}>
         <p className={styles.description}>{description}</p>
       </div>

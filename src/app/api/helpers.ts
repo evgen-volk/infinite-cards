@@ -15,7 +15,7 @@ export const getUrl = async (type: DrinkTypeEnum) => {
       throw new InvalidDrinkTypeError(type);
   }
 };
-// haha
+
 export const getCached = (type: DrinkTypeEnum) => {
   switch (type) {
     case DrinkTypeEnum.HOT:

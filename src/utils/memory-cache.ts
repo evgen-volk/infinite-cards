@@ -30,5 +30,4 @@ class MemoryCache {
   }
 }
 
-// Export singleton instance
 export const cache = new MemoryCache();
